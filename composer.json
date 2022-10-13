@@ -1,0 +1,21 @@
+{
+    "name": "tas-indranil/rabbitmq-php-library",
+    "description": "A library to connect and send data and files via rabbitmq using PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TasIndranil\\RabbitmqPhpLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tas-indranil",
+            "email": "indranil.samanta@totalaisystems.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php-amqplib/php-amqplib": ">=3.2"
+    }
+}
