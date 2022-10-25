@@ -2,6 +2,8 @@
 
 namespace tasindranil;
 
+use Exception;
+
 class ErrorHandler
 {
     private static array $errorList = [
